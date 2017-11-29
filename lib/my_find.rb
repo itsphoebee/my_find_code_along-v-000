@@ -8,7 +8,7 @@ def my_find(collection)
     i += 1
   end
 
-  if new_collection > 0
+  if new_collection != 0
     return new_collection.size
   else
     nil
