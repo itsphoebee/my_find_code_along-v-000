@@ -7,7 +7,7 @@ def my_find(collection)
     new_collection << yield(collection[i])
     i += 1
   end
-  
+
   if new_collection > 0
     return new_collection.size
   else
