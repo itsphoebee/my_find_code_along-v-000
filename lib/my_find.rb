@@ -7,5 +7,6 @@ def my_find(collection)
     new_collection << if yield(collection[i]) == true
     i += 1
   end
+  end
   return new_collection
 end
